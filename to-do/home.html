@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+                 integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+                 crossorigin="anonymous">
+    </head>
+    <body id="b1">
+        <div class="container">
+            <div class="row">
+                <div class="helpText col-12">
+                    <h1 id="h1">Work To Do</h1>
+                    <p id="p1">Enter text into the input field to add items to your list.</p>
+                    <p id="p2">Click the item to mark it as complete.</p>
+                    <p id="p3">Click the <i style="color: red;">"Remove"</i> to remove the item from your list.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-11">
+                    <input type="text" placeholder="Enter Things..." maxlength="30" id="userInput">
+                    <button id="enter" class="btn btn-primary" type="button">Add</button>
+                </div>
+            </div>
+
+            <!-- Empty List ... -->
+            <div class="row">
+                <div class="lastItem col-12">
+                    <ul class="col-12 offset-0 col-sm-8 offset-sm-2">
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>
